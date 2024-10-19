@@ -7,5 +7,6 @@
         3. run single module - Go to project directory and type pytest directory_name/test_file_name::module_name
             (pytest Pytest_Topics/test_assertion.py::test_character_match)
         4. search and run module name - pytest -v -k module_name (pytest -v -k test_character_match)
-        NB: if need more information use -v (pytest -v Pytest_Topics/test_module_number.py)
-3.
+        5. print function - Go to project directory and type pytest directory_name -s (pytest Pytest_Topics -s)
+           NB: if need more information use -v (pytest -v Pytest_Topics/test_module_number.py)
+
