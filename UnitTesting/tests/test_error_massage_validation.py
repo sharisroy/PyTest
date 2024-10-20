@@ -22,5 +22,7 @@ def test_validate_negative_age():
 
 def test_validate_over_age():
     # Get ValueError and Print it
-    with pytest.raises(ValueError, match="Age cannot be greater than 50"):
+    with pytest.raises(ValueError, match="Age cannot be greater than 50")as error_info:
+        # print(str(error_info.value))
         validation_age(60)
+
