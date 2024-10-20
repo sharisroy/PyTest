@@ -18,7 +18,7 @@ def pytest_configure(config):
     #     config.option.htmlpath = os.path.join(report_dir, report_file)
 
     if not config.option.htmlpath:
-        config.option.htmlpath = "test_report.html"
+        config.option.htmlpath = "report/test_report.html"
 
 # Hook to add custom metadata to the HTML report
 @pytest.hookimpl(tryfirst=True)

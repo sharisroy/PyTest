@@ -2,3 +2,16 @@ iniconfig==2.0.0
 packaging==24.1
 pluggy==1.5.0
 pytest==8.3.3
+
+pip~=23.3.2
+attrs~=24.2.0
+distro~=1.9.0
+PySocks~=1.7.1
+pyOpenSSL~=23.2.0
+cryptography~=41.0.7
+pillow~=10.3.0
+typing_extensions~=4.12.2
+pexpect~=4.9.0
+argcomplete~=3.3.0
+requests~=2.32.3
+gevent~=24.2.1
